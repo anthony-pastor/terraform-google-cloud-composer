@@ -14,7 +14,7 @@ Terraform module and child module sample to manage Google Cloud Composer resourc
 - ...
 
 ## Few notes
-- /!\ Environments create Google Cloud Storage buckets that do not get cleaned up automatically on environment deletion. /!\
+- /!\ Environments create Google Cloud Storage buckets that do not get cleaned up automatically on environment deletion.
 (https://www.terraform.io/docs/providers/google/r/composer_environment.html)
 
 - Once the GKE Cluster is created, you'll have to manually edit the GKE Cluster to add our master authorized network
