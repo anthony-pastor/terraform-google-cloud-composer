@@ -1,6 +1,17 @@
-# Terraform module and child module sample to manage Google Cloud Composer resources
+# terraform-google-cloud-composer
+
+Terraform module and child module sample to manage Google Cloud Composer resources.
 
 [Google Cloud Composer](https://cloud.google.com/composer) is a fully managed workflow orchestration service built on Apache Airflow.
+
+## Usage
+
+- git clone this repository
+- cd terraform-google-cloud-composer
+- edit [composer.tf](./composer.tf)
+- terraform init
+- terraform plan
+- ...
 
 ## Few notes
 - /!\ Environments create Google Cloud Storage buckets that do not get cleaned up automatically on environment deletion. /!\
