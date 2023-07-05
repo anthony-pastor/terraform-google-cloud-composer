@@ -17,7 +17,7 @@ google-cloud-videointelligence==1.9.0
 google-cloud-vision==0.38.0
 google-resumable-media==0.4.1
 googleads==21.0.0
-grpcio==1.23.0
+grpcio==1.53.0
 grpcio-gcp==0.2.2
 munch==2.3.2
 pandas==0.25.3
